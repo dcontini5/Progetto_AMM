@@ -6,11 +6,70 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Profilo</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Davide Contini">
+        <meta name="keywords" content="cerca nerdbook social nerd">
     </head>
     <body>
-        <div>TODO write content</div>
+        
+        <header>
+            
+            <div id="profTitle">
+                <h1>Profilo</h1>
+            </div>
+            
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="bacheca.html">Bacheca</a></li>
+                <li><a href="descrizione.html">Descrizione</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>   
+        
+        <div id="profBody">
+            
+            <div id="aggProf">
+                
+                <form action="servlet.java" method="post">
+                    
+                    <div id="userInfo">
+                        
+                        <h3>Dati Anagrafici e Password:</h3>
+                        <label for="nameText">Nome:</label>
+                        <input type="text" name="nameText" id="nameText"><br>
+                        <label for="surnameText">Cognome:</label>
+                        <input type="text" name="surnameText" id="surnameText"><br>
+                        <label for="birthDate">Data di Nascita:</label>
+                        <input type="date" name="birthDate" id="birthDate"><br>
+                        <label for="userPass">Password:</label>
+                        <input type="password" name="userPass" id="userPass"><br>
+                        <label for="confPass">Conferma Password:</label>
+                        <input type="password" name="confPass" id="confPass"><br>
+                        
+                    </div>
+                    <div id="userDesc">
+                        
+                        <h3>Bio e foto profilo:</h3>
+                        
+                        <label for="userBio">Descriviti in poche parole:</label>
+                        <textarea name="userBio" id="userBio"></textarea><br>
+                        <label for="userPic">Url immagine del profilo:</label>
+                        <input type="url" name="userPic" id="userPic"><br>
+                        
+                    </div>
+                    
+                    <button type="submit">Invia</button>
+                    
+                </form>
+                
+            </div>
+            
+        </div>
+        
+        
     </body>
 </html>

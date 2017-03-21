@@ -6,11 +6,44 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Login</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Davide Contini">
+        <meta name="keywords" content="cerca nerdbook social nerd">
     </head>
+    
     <body>
-        <div>TODO write content</div>
+        <header>
+            <div id="LogTitle">
+                <h1>Login</h1>
+            </div>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="bacheca.html">Bacheca</a></li>
+                <li><a href="descrizione.html">Descrizione</a></li>
+                <li><a href="profilo.html">Profilo</a></li>
+            </ul>
+        </nav>
+        
+        <div id="LogBody">
+            
+            <form action="servlet.java" method="post">
+                
+                <div id="InfoLogin">
+                    <h3>Inserisci Credenziali:</h3>
+                    <label for="UserText">Username:</label>
+                    <input type="text" name="UserText" id="UserText"><br>
+                    <label for="UserPass">Password:</label>
+                    <input type="password" name="UserPass" id="UserPass"><br>
+                </div>
+                
+                <button type="submit">Entra</button>
+            </form>
+            
+            
+        </div>
     </body>
 </html>
