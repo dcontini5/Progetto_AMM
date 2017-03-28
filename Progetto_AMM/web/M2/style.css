@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-Mar-2017, 09:27:05
+    Author     : D_con
+*/
+
+h1, h2, h3{
+    
+    font-family: "Verdana", Arial, sans-serif; 
+    color: #262626;
+    
+}
+
+
+p{
+    font-family: "Verdana", Arial, sans-serif; 
+    color: #262626;
+    
+}
+
+body{
+    
+    background-color: #fcfcfc;
+    
+}
+
+a:link{
+  
+    font-family: "Verdana", Arial, sans-serif; 
+    color: #0000cc;
+}
+
+a:visited{
+    
+
+    font-family: "Verdana", Arial, sans-serif; 
+    color: #6600cc;
+}
+
+a:hover{
+    
+    font-weight: bold;
+}
+
+#SiteTitle{
+    
+    height: 5%;
+    width: 20%;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    position: relative;
+}
+
+#BachTitle{
+    
+    height: 5%;
+    width: 50%;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    position: relative;
+
+}
