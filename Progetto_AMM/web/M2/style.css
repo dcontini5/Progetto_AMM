@@ -48,23 +48,27 @@ a:hover{
 
 #SiteTitle{
     
-    height: 5%;
-    width: 20%;
-    margin-top: 1px;
+    width: 35%;
     margin-left: 1px;
     margin-bottom: 1px;
     margin-right: 1px;
-    position: relative;
+    float: left;
+
 }
 
 #BachTitle{
     
-    height: 5%;
-    width: 50%;
-    margin-top: 1px;
+    width: 64%;
     margin-left: 1px;
     margin-bottom: 1px;
     margin-right: 1px;
-    position: relative;
-
+    border-left: 2px solid #262626;
+    float: left;
+  
+ 
+}
+#BachHeader{
+    
+   height: 80px;
+   border: 2px solid #262626;
 }
