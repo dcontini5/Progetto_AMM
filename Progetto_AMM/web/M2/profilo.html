@@ -15,56 +15,107 @@ and open the template in the editor.
     </head>
     <body>
         
-        <header>
-            
-            <div id="SiteTitle">
-                <h1>Nerdbook</h1>
-            </div>
-            
-            <div id="ProfTitle">
-                <h1>Profilo</h1>
-            </div>
-            
-            
-            
-        </header>
+        <header class="SiteHeader">
+
+
+             <div id="SiteTitle">
+                 <p class="SiteName">Nerdbook</p>
+             </div>
+
+             <nav id="NavTitle">
+                 <ul>
+                     <li class="active"><a href="profilo.html" class="navbar">Profilo</a></li>
+                     <li><a href="bacheca.html" class="navbar">Bacheca</a></li>
+                 </ul>
+             </nav>
+
+             <div id="BackLog">
+
+                <div>
+                 <img alt="Micky Myers" src="img/Michael_myers.jpg" width="25" height="25">
+                 <p class="Username">Michael Myers</p>
+                 <a href="login.html" id="LogLink" class="navbar">Logout</a>
+                </div>
+             </div>
+         </header>
         
-        <nav>
-            <ul>
-                <li><a href="descrizione.html">Descrizione</a></li>
-                <li><a href="login.html">Login</a></li>
-            </ul>
-        </nav>   
+       
         
-        <div id="ProfBody">
+        <div id="ProfBody" class="PageBody">
             
+            <div class="Sidebar">
+                <div class="Persone">
+                    <div class="PersTitle">
+                        <h2>Persone</h2>
+                    </div>
+                    <div>
+                        <img alt="tizio_spaventato" src="img/babadook.jpg" width="30" height="30">
+                        <p class="Utente">Tizio Spaventato</p>
+                    </div>
+                    <div>
+                        <img alt="Freddy Krugy" src="img/krueger-glove.jpg" width="30" height="30">
+                        <p class="Utente">Freddy Krueger</p>
+                    </div>
+                    <div>
+                        <img alt="Jasy Voory" src="img/jason.jpg" width="30" height="30">
+                        <p class="Utente">Jason Voorhees</p>
+                    </div>
+                </div>
+                
+                <div class="Gruppi">
+                    <div class="GrupTitle">
+                        <h2>Gruppi</h2>
+                    </div>
+                    <div>
+                        <img alt="Maratona" src="img/runner-clip-art.jpg" width="30" height="30">
+                        <p class="Utente">Maratone</p>
+                    </div>
+                    <div>
+                        <img alt="Fisica_tele" src="img/atom.png" width="30" height="30">
+                        <p class="Utente">Gli immortali</p>
+                    </div>
+                   
+                </div>
+                
+             </div>    
             <div id="AggProf">
                 
-                <form action="servlet.java" method="post">
+                <div id="ProfPic">
+                    <img alt="Micky Myers" src="img/Michael_myers.jpg" width="100" height="100">
+                </div>
+                
+                <form action="servlet.java" method="post" id="AggInfo">
                     
                     <div id="UserInfo">
                         
-                        <h3>Dati Anagrafici e Password:</h3>
-                        <label for="NameText">Nome:</label>
-                        <input type="text" name="NameText" id="NameText"><br>
-                        <label for="SurnameText">Cognome:</label>
-                        <input type="text" name="SurnameText" id="SurnameText"><br>
-                        <label for="BirthDate">Data di Nascita:</label>
-                        <input type="date" name="BirthDate" id="BirthDate"><br>
-                        <label for="UserPass">Password:</label>
-                        <input type="password" name="UserPass" id="UserPass"><br>
-                        <label for="ConfPass">Conferma Password:</label>
-                        <input type="password" name="ConfPass" id="ConfPass"><br>
-                        
-                    </div>
-                    <div id="UserDesc">
-                        
-                        <h3>Bio e foto profilo:</h3>
-                        
-                        <label for="UserBio">Descriviti in poche parole:</label>
-                        <textarea name="UserBio" id="UserBio"></textarea><br>
-                        <label for="UserPic">Url immagine del profilo:</label>
-                        <input type="url" name="UserPic" id="UserPic"><br>
+                        <div class="info">
+                            <label for="NameText">Nome:</label>
+                            <input type="text" name="NameText" id="NameText"><br>
+                        </div>
+                        <div class="info">
+                            <label for="SurnameText">Cognome:</label>
+                            <input type="text" name="SurnameText" id="SurnameText"><br>
+                        </div>
+                        <div class="info">
+                            <label for="BirthDate">Data di Nascita:</label>
+                            <input type="date" name="BirthDate" id="BirthDate"><br>
+                        </div>
+                        <div class="info">
+                            <label for="UserPass">Password:</label>
+                            <input type="password" name="UserPass" id="UserPass"><br>
+                        </div>
+                        <div class="info">
+                            <label for="ConfPass">Conferma Password:</label>
+                            <input type="password" name="ConfPass" id="ConfPass"><br>
+                        </div>
+                        <div class="info">
+                            <label for="UserBio">Descriviti in poche parole:</label>
+                            <textarea name="UserBio" id="UserBio"></textarea><br>
+                        </div>
+                        <div class="info">
+                            <label for="UserPic">Url immagine del profilo:</label>
+                            <input type="url" name="UserPic" id="UserPic"><br>
+                        </div>
                         
                     </div>
                     

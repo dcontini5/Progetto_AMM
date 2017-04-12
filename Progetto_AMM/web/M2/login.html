@@ -15,30 +15,30 @@ and open the template in the editor.
     </head>
     
     <body>
-        <header>
+        <header id="LogHead">
+            
+            
             <div id="LogTitle">
-                <h1>Login</h1>
+                <img alt="Logo_Nerd" src="img/logo-nerdbooks.png" width="54" height="44" id="SiteLogo">
+                <p class="SiteName">Nerdbook</p>
             </div>
         </header>
         
-        <nav>
-            <ul>
-                <li><a href="bacheca.html">Bacheca</a></li>
-                <li><a href="descrizione.html">Descrizione</a></li>
-                <li><a href="profilo.html">Profilo</a></li>
-            </ul>
-        </nav>
         
         <div id="LogBody">
             
-            <form action="servlet.java" method="post">
+            <form id="logform" action="servlet.java" method="post">
                 
                 <div id="InfoLogin">
-                    <h3>Inserisci Credenziali:</h3>
+                    
+                    <div class="info">
                     <label for="UserText">Username:</label>
                     <input type="text" name="UserText" id="UserText"><br>
+                    </div>
+                    <div class="info">
                     <label for="UserPass">Password:</label>
                     <input type="password" name="UserPass" id="UserPass"><br>
+                    </div>
                 </div>
                 
                 <button type="submit">Entra</button>

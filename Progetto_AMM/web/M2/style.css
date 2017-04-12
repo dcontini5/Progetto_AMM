@@ -12,63 +12,414 @@ h1, h2, h3{
     
     font-family: "Verdana", Arial, sans-serif; 
     color: #262626;
-    
 }
 
 
 p{
     font-family: "Verdana", Arial, sans-serif; 
+    font-size: 20px;
     color: #262626;
     
 }
 
 body{
     
-    background-color: #fcfcfc;
+    background-color: #e37468;    
+    margin-top: 1px;
     
 }
 
 a:link{
   
     font-family: "Verdana", Arial, sans-serif; 
-    color: #0000cc;
+    font-size: 20px;
+    text-decoration: none;
+    color: #262626;
 }
 
 a:visited{
     
 
     font-family: "Verdana", Arial, sans-serif; 
-    color: #6600cc;
+    font-size: 20px;
+    text-decoration: none;
+    color: #262626;
 }
 
 a:hover{
     
     font-weight: bold;
+    color: #262626;
+}
+
+a.navbar:link{
+  
+    font-family: "Verdana", Arial, sans-serif; 
+    font-size: 20px;
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+a.navbar:visited{
+    
+
+    font-family: "Verdana", Arial, sans-serif; 
+    font-size: 20px;
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+a.navbar:hover{
+    
+    font-weight: bold;
+    color: #fcfcfc;
+}
+
+.SiteHeader{
+   
+   font: 35px/50px "Verdana", Arial, sans-serif;
+   height: 80px;
+   width: 100%;
+   border-bottom: 3px solid #db4437; 
+   position: fixed;
+   top: 0;
+   left: 2px;
+   right: 5px;
+   background-color: #db4437;
 }
 
 #SiteTitle{
     
-    width: 35%;
-    margin-left: 1px;
-    margin-bottom: 1px;
-    margin-right: 1px;
+    color: #fcfcfc;
+    text-align: center;
+    padding-top: 12px; 
     float: left;
-
+    height: 78px;
+    
+  
 }
 
-#BachTitle{
+nav{
     
-    width: 64%;
-    margin-left: 1px;
-    margin-bottom: 1px;
-    margin-right: 1px;
-    border-left: 2px solid #262626;
-    float: left;
-  
+   margin: 0;
+   text-align:left;
+   height: 78px;
+   width: auto;
+   display: inline;
+    
+}
+
+nav li{
+    
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+
+nav ul, nav ol{
+   
+    margin-top: 0;
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+    
+}
+nav li.active{
+    
+    background-color: #e37768;
+    padding-bottom: 16px; 
+    
+}
+
+
+
+#BackLog{
+    
+    color: #fcfcfc;
+    margin-top: -7px;
+    width: auto;
+    height: 80px;
+    display: inline;
+    float: right;
+    text-align: center;
  
 }
-#BachHeader{
+
+.Username{
     
-   height: 80px;
-   border: 2px solid #262626;
+    
+    font-size: 16px;
+    display: inline;
+    color: #fcfcfc;
+}
+
+#LogLink{
+    margin-top: -13px;
+    height: 30px;
+    font-size: 20px;
+    display: block; 
+    
+}
+
+#BachBody{
+    
+    margin-top: 85px;
+    width: 100%;
+    height: 1000px;
+
+    
+}
+
+.Sidebar{
+    
+    background-color: #fcfcfc;
+    top: 90px;
+    height: auto;
+    width: auto;
+    display: inline;
+    text-align: left;
+    position: fixed;
+    padding-left: 6px;
+    padding-top: 6px;
+}
+
+.Utente, .postcontent{
+    
+    color: #262626;
+    display: inline;
+    padding: 5px;
+    
+    
+}
+
+#BachPost{
+    
+    
+    padding-left: 305px; 
+    text-align: left;
+    
+    
+   
+}
+
+.post{
+    
+    margin-bottom: 15px;
+    padding: 5px;
+    display: block;
+    margin-left: 30px;
+    background-color: #fcfcfc;
+    
+}
+
+
+#StatoPersonale{
+    
+    top: 10px;
+    margin-bottom: 25px;
+    display: block;
+    background-color: #fcfcfc;
+    padding: 5px;
+    
+}
+
+
+
+.PersTitle, .GrupTitle{
+    
+    text-align: justify;
+    
+}
+
+
+
+#AggProf{
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    background-color: #fcfcfc;
+    padding: 7px;
+    height: auto;
+    width: 590px;
+}
+
+#AggInfo{
+    font-family: "Verdana", Arial, sans-serif; 
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    width: 450px; 
+    height: 100%;
+    
+}
+
+label{
+    
+    float: left;
+    
+}
+
+input, textarea{
+    
+    float: right;
+    
+}
+
+#UserBio{
+    
+    width: 167px;
+    height: 15px;
+}
+
+#BirthDate{
+    
+    width: 168px;
+    height: 17px;
+    
+}
+
+#ProfPic{
+    
+    float: left;
+    width: auto;
+    margin-right: 40px;
+    
+}
+
+.info{
+    
+    margin-bottom: 7px;
+    
+}
+
+.info:last-child{
+    
+    padding-bottom: 10px;
+    border-bottom: 2px solid #db4437;
+    
+}
+
+
+
+form button{
+    width: 100%;
+}
+
+#LogHead{
+    margin-top: 70px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+.SiteName{
+    
+    display: inline;
+    font-family: "Verdana", Arial, sans-serif; 
+    font-size: 40px;
+    color:#fcfcfc;
+    
+    
+}
+
+#SiteLogo{
+    
+    margin-right: 50px;
+}
+
+#logform{
+    font-family: "Verdana", Arial, sans-serif; 
+    text-align: center;
+    background-color: #fcfcfc;
+    height: auto;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px;
+}
+
+
+@media only screen and (min-width: 1024px)
+{
+    #logform{
+    
+        font-size: 18px;
+    
+    
+    }
+    #SiteTitle{
+        
+        width: 300px;
+    }
+}
+
+
+@media only screen and (max-width: 1023px)
+                   and (min-width: 481px) 
+{
+       #logform{
+    
+        font-size: 17px;
+    
+    
+    }
+    
+    #LogLink{
+        
+        font-size: 14px;
+        
+    }
+    
+    .Username{
+        
+        font-size: 13px;
+        
+    }
+    
+    a.navbar:link{
+        
+        font-size: 15px;
+        
+    }
+    #SiteTitle{
+        
+        width: 30%;
+    }
+    
+    .SiteName{
+    
+        font-size: 30px;
+
+    }
+    
+}
+
+@media only screen and (max-width: 480px)
+{
+    
+    #logform{
+    
+        font-size: 15px;
+    
+    
+    }
+    
+    .SiteName{
+    
+        font-size: 20px;
+
+    }
+    
+    .Sidebar{
+        
+        display: block;
+        position: absolute;
+    }
 }
