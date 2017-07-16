@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Bacheca</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Davide Contini">
+        <meta name="keywords" content="cerca nerdbook social nerd bacheca post">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    </head>
+    <body>
+        
+        <header class="SiteHeader">
+            
+              
+            <div id="SiteTitle">
+                <p class="SiteName">Nerdbook</p>
+            </div>
+
+            <c:set var="page" value="bacheca" scope="request"/>
+            <jsp:include page="nav.jsp"/>
+            
+            <div id="BackLog">
+               
+                <div>
+                <img alt="Micky Myers" src="img/Michael_myers.jpg" width="25" height="25">
+                <p class="Username">Michael Myers</p>
+                <a href="login.html" id="LogLink" class="navbar">Logout</a>
+                </div>
+            </div>
+        </header>
+        
+       
+        
+        
+        
+        <div id="BachBody" class="PageBody">
+            
+            <div class="Sidebar">
+                <div class="Persone">
+                    <div class="PersTitle">
+                        <h2>Persone</h2>
+                    </div>
+                    <div>
+                        <img alt="tizio_spaventato" src="img/babadook.jpg" width="30" height="30">
+                        <p class="Utente">Tizio Spaventato</p>
+                    </div>
+                    <div>
+                        <img alt="Freddy Krugy" src="img/krueger-glove.jpg" width="30" height="30">
+                        <p class="Utente">Freddy Krueger</p>
+                    </div>
+                    <div>
+                        <img alt="Jasy Voory" src="img/jason.jpg" width="30" height="30">
+                        <p class="Utente">Jason Voorhees</p>
+                    </div>
+                </div>
+                
+                <div class="Gruppi">
+                    <div class="GrupTitle">
+                        <h2>Gruppi</h2>
+                    </div>
+                    <div>
+                        <img alt="Maratona" src="img/runner-clip-art.jpg" width="30" height="30">
+                        <p class="Utente">Maratone</p>
+                    </div>
+                    <div>
+                        <img alt="Fisica_tele" src="img/atom.png" width="30" height="30">
+                        <p class="Utente">Fisica Del Teletrasporto</p>
+                    </div>
+                   
+                </div>
+                
+            </div>
+            
+            
+            <div id="BachPost">
+                <div id="StatoPersonale">
+                    <img alt="Micky Myers" src="img/Michael_myers.jpg" width="30" height="30">
+                    <p class="Utente">Michael Myers</p><br>
+                    <p class="postcontent">Gli omicidi sono come le mele, uno al giorno leva il medico di torno, sopratutto se uccidi il medico xD</p>
+                </div>
+                
+                <div class="post">
+                    <img alt="Freddy Krugy" src="img/krueger-glove.jpg" width="30" height="30">
+                    <p class="Utente">Freddy Krueger</p><br>
+                    <p class="postcontent">Manicure fatta!! Chi mette mi piace?<br>
+                    <img alt="Manicure" src="img/NEC11644.jpg" width="276" height="77">
+                </div>
+                
+                <div class="post">
+                    <img alt="Jasy Voory" src="img/jason.jpg" width="30" height="30">
+                    <p class="Utente">Jason Voorhees</p><br>
+                    <p class="postcontent">Cercate un posto in cui passare l'estate e divertirvi da morire? Venire a <a href="http://fridaythe13th.wikia.com/wiki/Camp_Crystal_Lake">Camp Crystal Lake.</a></p>
+                </div>
+                
+            </div>
+            
+            
+        </div>
+        
+    </body>
+</html>

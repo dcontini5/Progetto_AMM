@@ -1,9 +1,11 @@
+<%-- 
+    Document   : descrizione
+    Created on : 15-Jul-2017, 17:51:05
+    Author     : D_con
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 
 <html>
     <head>
@@ -37,15 +39,9 @@ and open the template in the editor.
         
         <div id="DescInfo">
          
-            <h1>Benvenuto</h1>
+            <h1>Descrizione Nerdbook</h1>
             
-            <p> 
-                Questa pagina fornisce una breve descrizione del sito. 
-            </p>
-            
-            
-            
-            <h3>Link interni:</h3>
+            <h2>Link interni:</h2>
             <ol>
                 <li><a href="#InfoNerd">Cosa &egrave; nerdbook?</a></li>
                 <li><a href="#IscrizNerd">Come iscriversi</a></li>
@@ -53,7 +49,7 @@ and open the template in the editor.
                 
             </ol>
             
-            <h2 id="InfoNerd">Che cosa &egrave; nerdbook?</h2>
+            <h3 id="InfoNerd">Che cosa &egrave; nerdbook?</h3>
             <p>
                 Nerdbook è un social network totalmente gratis in cui poter trovare nerd sociofobici come te che non sono in grado di rivolgere più di due parole ad una persona senza collassare a terra, qua potrai avere tutti gli amici che vuoi e non doverne mai incontrare nessuno (che è la parte migliore), quindi basta essere emarginati per colpa di una stupida fobia del contatto fisico con individui della tua stessa specie! Iscriviti a Nerdbook :D
                 Jason Voorhees is the main character from the Friday the 13th series. He first appeared in Friday the 13th (1980) as the young son of camp cook-turned-murderer Mrs. Voorhees, in which he was portrayed by Ari Lehman. Created by Victor Miller, with contributions by Ron Kurz, Sean S. Cunningham, and Tom Savini, Jason was not originally intended to carry the series as the main antagonist. The character has subsequently been represented in various other media, including novels, video games, comic books, and a cross-over film with another iconic horror film character, Freddy Krueger.
@@ -66,7 +62,7 @@ and open the template in the editor.
                 In 2005, California State University's Media Psychology Lab surveyed 1,166 people Americans aged from 16 to 91 on the psychological appeal of movie monsters. Many of the characteristics associated with Jason Voorhees were appealing to the participants. In the survey, Jason was considered to be an "unstoppable killing machine." Participants were impressed by the "cornucopic feats of slicing and dicing a seemingly endless number of adolescents and the occasional adult." Out of the ten monsters used in the survey—which included vampires, Freddy Krueger, Frankenstein's monster, Michael Myers, Godzilla, Chucky, Hannibal Lecter, King Kong, and the Alien—Jason scored the highest in all the categories involving killing variables. Further characteristics that appealed to the participants included Jason's "immortality, his apparent enjoyment of killing [and] his superhuman strength."[101]
             </p>
             
-            <h2 id="IscrizNerd">Come iscriversi?</h2>
+            <h3 id="IscrizNerd">Come iscriversi?</h3>
             <p>
                 Iscriversi è molto semplice, inserisci nome utente(usa il tuo nome vero non roba come D3atHKilL3r93 perchè verrai bannato in tempo zero) una password e le credenziali della tua carta di credito nel box di testo apposito. 
                 Frederick Charles "Freddy" Krueger is a character of the A Nightmare on Elm Street film series. He first appeared in Wes Craven's A Nightmare on Elm Street (1984) as a burnt serial killer who uses a glove armed with razors to kill his victims in their dreams, causing their deaths in the real world as well. In the dream world, he is a powerful force and almost completely invulnerable to damage. However, whenever Freddy is pulled into the real world, he has normal human vulnerabilities. Krueger was created by Wes Craven, and had been consistently portrayed by Robert Englund since his first appearance. In the 2010 franchise reboot, he was portrayed by Jackie Earle Haley. In 2011, Freddy appeared as a playable character in the video game Mortal Kombat.[2] Over the course of the series, Freddy has battled numerous survivors including Nancy Thompson.[3]
@@ -88,7 +84,7 @@ and open the template in the editor.
                 At the end of the movie Jason Goes To Hell: The Final Friday, the mask of the title character, Jason Voorhees, played by Kane Hodder, is dragged under the earth by Freddy's gloved hand, thus setting up Freddy vs. Jason. Freddy's gloved hand, in the ending, was played by Kane Hodder.[20]
             </p>
             
-            <h2 id="PagaNerd">Nerdbook &egrave; gratis o a pagamento?</h2>
+            <h3 id="PagaNerd">Nerdbook &egrave; gratis o a pagamento?</h3>
             <p>
                 Iscriversi a NErdbook &egrave; gratis ma i post che conterranno frasi come un mi piace una preghiera dovranno essere pagati. Michael Myers is a fictional character from the Halloween series of slasher films. He first appears in John Carpenter's Halloween (1978) as a young boy who murders his older sister, then fifteen years later returns home to murder more teenagers. In the original Halloween, the adult Michael Myers, referred to as The Shape in the closing credits, was portrayed by Nick Castle for most of the film, with Tony Moran and Tommy Lee Wallace substituting in during the final scenes. The character was created by Debra Hill and John Carpenter and has appeared in nine films, as well as novels, multiple video games, and several comic books.
                 The character is the primary antagonist in the Halloween film series, except Halloween III: Season of the Witch, which is not connected in continuity to the rest of the films. Since Castle, Moran, and Wallace put on the mask in the original film, six people have stepped into the role. Tyler Mane is the only actor to have portrayed Michael Myers in consecutive films, and one of only two actors to portray the character more than once. Michael Myers is characterized as pure evil, both directly in the films, by the filmmakers who created and developed the character over nine films, as well as by random participants in a survey.[2][3]
